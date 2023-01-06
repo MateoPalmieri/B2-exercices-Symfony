@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}A propos{% endblock %}
+
+{% block body %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Metrophobic&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="example-wrapper">
+    <img src="{{asset('images/profil.jpg')}}" />
+    <h3>Bonjour</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit vero eaque commodi tempore molestias sapiente quod ipsum assumenda animi culpa ea maiores magnam sit iure, iste nemo veritatis, atque unde!</p>
+</div>
+<style>
+    .example-wrapper h3 { font-style: oblique }
+    .example-wrapper {font-family: 'Metrophobic', sans-serif; }
+</style>
+{% endblock %}
